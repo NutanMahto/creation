@@ -17,5 +17,10 @@
             "tcl\\Linnworks\\": "src"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.01"
+        }
+    }
 }
