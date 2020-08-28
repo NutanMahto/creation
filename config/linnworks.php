@@ -1,5 +1,5 @@
 <?php
-
+// config
 return [
     'applicationId' => env('LINNWORKS_APP_ID'),
     'applicationSecret' => env('LINNWORKS_SECRET'),
