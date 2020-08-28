@@ -1,15 +1,15 @@
 <?php
 
-namespace Tcl\Creation;
+namespace Linn\Creation;
 
-use TclCreation\Api\Auth;
-use TclCreation\Api\Inventory;
-use TclCreation\Api\Locations;
-use TclCreation\Api\Orders;
-use TclCreation\Api\PostalServices;
-use TclCreation\Api\ReturnsRefunds;
-use TclCreation\Api\Stock;
-use TclCreation\Exceptions\LinnworksAuthenticationException;
+use Linn\Creation\Api\Auth;
+use Linn\Creation\Api\Inventory;
+use Linn\Creation\Api\Locations;
+use Linn\Creation\Api\Orders;
+use Linn\Creation\Api\PostalServices;
+use Linn\Creation\Api\ReturnsRefunds;
+use Linn\Creation\Api\Stock;
+use Linn\Creation\Exceptions\LinnworksAuthenticationException;
 use GuzzleHttp\Client as GuzzleClient;
 
 class Linnworks

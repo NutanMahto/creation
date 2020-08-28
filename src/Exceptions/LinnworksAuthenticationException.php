@@ -1,6 +1,6 @@
 <?php
 
-namespace Tcl\Creation\Exceptions;
+namespace Linn\Creation\Exceptions;
 
 use Exception;
 

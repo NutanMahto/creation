@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Tcl\Creation\Api;
+namespace Linn\Creation\Api;
 
-use Tcl\Creation\Exceptions\LinnworksResponseCouldNotBeParsed;
+use Linn\Creation\Exceptions\LinnworksResponseCouldNotBeParsed;
 use GuzzleHttp\Client;
 
 class ApiClient

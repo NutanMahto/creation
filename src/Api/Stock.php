@@ -1,6 +1,6 @@
 <?php
 
-namespace Tcl\Creation\Api;
+namespace Linn\Creation\Api;
 
 class Stock extends ApiClient
 {
