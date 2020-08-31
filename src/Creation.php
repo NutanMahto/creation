@@ -12,7 +12,7 @@ use Linn\Creation\Api\Stock;
 use Linn\Creation\Exceptions\LinnworksAuthenticationException;
 use GuzzleHttp\Client as GuzzleClient;
 
-class Linnworks
+class Creation
 {
     const BASE_URI = 'https://api.linnworks.net';
 

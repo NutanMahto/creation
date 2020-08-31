@@ -1,7 +1,6 @@
 {
     "name": "linn/creation",
     "description": "Linnworks API",
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +13,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Tcl\\Creation\\": "src"
+            "Linn\\Creation\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Linn\\Creation\\CreationServiceProvider"
+            ],
+            "aliases": {
+                "Creation": "Linn\\Creation\\CreationFacade"
+            }
         }
     },
     "minimum-stability": "dev",
